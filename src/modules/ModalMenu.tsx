@@ -5,6 +5,7 @@ import {
 	Dialog,
 	DialogActions,
 	DialogContent,
+	DialogContentText,
 	DialogTitle,
 	Slide
 } from "@material-ui/core";
@@ -56,7 +57,12 @@ export const ModalMenu: React.FunctionComponent<ModalMenuProps> = (props) => {
 					{props.label.title}
 				</DialogTitle>
 				<DialogContent>
-					{props.children}
+					<DialogContentText
+						id='scroll-dialog-description'
+						tabIndex={-1}
+					>
+						{props.children}
+					</DialogContentText>
 				</DialogContent>
 				<DialogActions>
 					<Button onClick={handleClick.close} color="primary" autoFocus>
