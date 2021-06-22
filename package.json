@@ -1,0 +1,35 @@
+{
+  "name": "materialui-component-collection",
+  "version": "0.9.0",
+  "description": "Custom react modules",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cocon/materialui-component-collection.git"
+  },
+  "keywords": [
+    "Material-UI"
+  ],
+  "author": "YUUKIToriyama <github@toriyama.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cocon/materialui-component-collection/issues"
+  },
+  "homepage": "https://github.com/Cocon/materialui-component-collection#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.11",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "react": "^17.0.2",
+    "ts-node": "^10.0.0"
+  }
+}

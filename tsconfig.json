@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "declaration": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "lib": ["ES5", "ES6", "DOM"],
+        "outDir": "./dist",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es5",
+        "types": ["node"],
+        "typeRoots": ["src/@types"],
+        "module": "commonJs",
+    }
+}
