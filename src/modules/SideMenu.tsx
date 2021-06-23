@@ -72,7 +72,7 @@ export const SideMenu: React.FunctionComponent<SideMenuProps> = (props) => {
 						return (
 							<Link href={item.href}>
 								<ListItem button key={item.name}>
-									<ListItemIcon>{item.icon}</ListItemIcon>
+									<ListItemIcon><item.icon /></ListItemIcon>
 									<ListItemText>{item.text}</ListItemText>
 								</ListItem>
 							</Link>
